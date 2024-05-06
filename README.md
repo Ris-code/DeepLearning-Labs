@@ -1,30 +1,30 @@
 # DeepLearning-Labs
 
-## LAB 1
+## LAB 1: Implementing MLP
 
 Implement an MLP for the classification of the Dry Bean dataset. You can download the dataset from the attached link.
 
-## LAB 2
+## LAB 2: Fully Connected Autoencoder
 
 Develop a fully connected autoencoder using PyTorch, comprising three encoder and three decoder layers. Train the autoencoder on the Street View House Numbers (SVHN) dataset and conduct a comprehensive evaluation of its reconstruction accuracy. Extend the autoencoder by incorporating a sparsity constraint on the hidden layer. Systematically assess the impact of sparsity on the learned representations and the overall reconstruction performance of the model. Provide insights into how the introduction of sparsity affects the autoencoder's ability to capture meaningful features and improve reconstruction quality.
 
-## LAB 3
+## LAB 3: Convolutional Autoencoder
 
 Create a convolutional autoencoder that does greedy layer-wise pretraining on the STL-10 dataset. You must create an autoencoder with at most 3 convolution blocks with varying activation(ReLU, tanh) and pooling layers(Adaptive Avg pool)(i.e. 3 for encoder and 3 for decoder at most). You must add an additional linear layer after the autoencoder for classification. Appropriate plots must be made like T-SNE and train loss curves. To check for efficacy, you must also use appropriate metrics like a confusion matrix.
 
 Bonus: Identify a known problem in this kind of architecture and apply a regularization technique as required.
 
-## LAB 4
+## LAB 4: Depth-wise and Point-wise Convolution
 
 Depth-wise and Point-wise Convolution: Design a convolutional neural network (CNN) architecture that utilizes 4 blocks of depth-wise separable convolutions followed by point-wise convolutions. Train the CNN on the CIFAR-10 dataset and evaluate its performance in terms of classification accuracy,precison,recall,f1 score. Compare the computational efficiency and effectiveness of depth-wise and point-wise convolutions with traditional convolutional layers.
 
-## LAB 5
+## LAB 5: LSTM
 
 In this lab exercise, your objective is to apply Long Short-Term Memory (LSTM) networks to predict shampoo sales using a dedicated dataset. Start by exploring and preprocessing the sales dataset, visualizing trends, and normalizing data. Design an LSTM model, experiment with hyperparameters, and compile the network. After model construction, undergo training, validation, and testing phases, evaluating performance with metrics like Mean Squared Error. The final task involves fine-tuning the model for optimization through adjustments, regularization techniques, and exploration of additional enhancements. This assignment encourages your practical application and understanding of LSTM networks in the context of forecasting shampoo sales based on real-world data. You can download the dataset using this link:
 
 https://www.kaggle.com/datasets/redwankarimsony/shampoo-saled-dataset
 
-## LAB 6
+## LAB 6: Variational Autoencoder
 
 Implement a variational autoencoder architecture using PyTorch and train it on the UTKFace dataset. For enhancing the model's performance employ convolutional and dense blocks. Evaluate the quality of the generated images using both qualitative and quantitative metrics, and discuss strategies for improving the VAE's ability to generate high-fidelity and diverse samples. Compare the results of VAE with a normal autoencoder. Also prove your results by properly visualizing the outputs. 
 
@@ -47,7 +47,7 @@ Discuss how you can improve the VAE's ability to generate high fidelity and dive
 Note
 Only assignment written in Pytorch would be eligible for grading rest of the assignments would be awarded zero.
 
-## LAB 7
+## LAB 7: DCGAN
 
 In this assignment, you need to create a DCGAN. The difference between this type of GAN and
 the one introduced by Goodfellow et al. is that we use deep convolutional networks in the
@@ -63,7 +63,7 @@ Least-Squares GAN paper.
 cases after the training is done. Compare their performance based on the FID score
 metric. To know more of this metric, refer to this link: FID 
 
-## LAB 8
+## LAB 8: CycleGAN
 
 Implementation of CycleGAN in PyTorch
 
@@ -81,7 +81,7 @@ Part 3: Consistency Regularization
 
 Explore the concept of consistency regularization to enhance the stability and robustness of CycleGAN training. Implement techniques such as cycle consistency regularization or feature matching to enforce consistency between translated and original images across domains. Analyze the impact of consistency regularization on the convergence behavior and generalization performance of the CycleGAN model. Provide insights into how consistency regularization mitigates potential issues like mode collapse or overfitting during training.
 
-## LAB 9
+## LAB 9: StyleGAN
 
 Download the pre-trained StyleGan(v1, v2 or v3).
 
@@ -89,7 +89,7 @@ Download the pre-trained StyleGan(v1, v2 or v3).
 
 2. Take your face image and 5 different face images of your friends (One image per friend). Perform feature disentanglement and linear interpolation between your face and your friend's face. 
    
-## LAB 10
+## LAB 10: Transfer Learning
 
 In this assignment, you are to take a pretrained convnet and apply it in the tasks
 given below. Odd roll numbers must take efficientnetb0 and even roll numbers
@@ -106,7 +106,7 @@ from each class in the following two cases:
 recall and accuracy metrics. Plot the training loss curve. Finally, write plausible
 explanation for the difference in metric values you obtained.
 
-## LAB-11
+## LAB-11: Graph Neural Network
 
 Code link: https://drive.google.com/file/d/1ECSqWfxP6I8HL3j-V5JmY3XjZfsej5c0/view?usp=sharing
 
